@@ -38,7 +38,7 @@ case "8":
 CalcularMédiaAritmética();
 break;
 case "9":
-Console.WriteLine("Projeto de encerramento do 1º módulo feito em C#\n user: camilalocatelli");
+Console.WriteLine("Projeto de encerramento do 1º módulo feito em C#\n user: luarkim ");
 break;
 case "0":
 Console.WriteLine("\nObrigada por utilizar meu programa :)");
@@ -47,6 +47,8 @@ default:
 Console.WriteLine("Operação indisponível");
 break;
 }
+
+{
 Console.WriteLine("\nPressione qualquer tecla para continuar...\n");
 Console.ReadKey();
 Console.Clear();
@@ -55,6 +57,7 @@ while (operação != "0");
 
 }
 
+{
 static void exibeMenu()
 {
 
